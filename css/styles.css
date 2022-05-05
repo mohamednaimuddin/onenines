@@ -14,7 +14,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+body {
+    background-color: #000;
+}
+
 :root {
+    background-color: #000;
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #7464a1;
@@ -11369,7 +11374,7 @@ body {
 #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: #780a0f;
+    color: white;
     border: 1px solid #64a19d;
 }
 
@@ -11518,10 +11523,6 @@ body {
     margin-bottom: 5rem;
 }
 
-.projects-section {
-    padding: 10rem 0;
-}
-
 .projects-section .featured-text {
     padding: 2rem;
 }
@@ -11596,6 +11597,7 @@ body {
 
 .contact-section .social {
     margin-top: 5rem;
+    background-color: black;
 }
 
 .contact-section .social a {
@@ -11613,7 +11615,7 @@ body {
 }
 
 .contact-section .social a:active {
-    color: #fff;
+    color: black;
 }
 
 .footer {
